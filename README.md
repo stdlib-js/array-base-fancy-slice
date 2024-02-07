@@ -253,9 +253,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-fancy-slice/main/LICENSE
 
-[@stdlib/slice/ctor]: https://github.com/stdlib-js/stdlib
+[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
 
-[@stdlib/array/dtype]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/dtype]: https://github.com/stdlib-js/array-dtype
 
 </section>
 
