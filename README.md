@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-fancy-slice
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@esm/index.mjs';
+var slice = require( '@stdlib/array-base-fancy-slice' );
 ```
 
 #### slice( x, s, strict )
@@ -60,7 +78,7 @@ import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@
 Returns a shallow copy of a portion of an array.
 
 ```javascript
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
+var Slice = require( '@stdlib/slice-ctor' );
 
 var x = [ 1, 2, 3, 4, 5, 6 ];
 
@@ -102,15 +120,10 @@ The function supports the following parameters:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
-import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@esm/index.mjs';
+```javascript
+var zeroTo = require( '@stdlib/array-zero-to' );
+var Slice = require( '@stdlib/slice-ctor' );
+var slice = require( '@stdlib/array-base-fancy-slice' );
 
 var x = zeroTo( 10, 'generic' );
 // returns [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
@@ -146,10 +159,6 @@ y = slice( x, s, false );
 s = new Slice( 5, null );
 y = slice( x, s, false );
 // returns [ 5, 6, 7, 8, 9 ]
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -181,7 +190,7 @@ y = slice( x, s, false );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -244,9 +253,9 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-fancy-slice/main/LICENSE
 
-[@stdlib/slice/ctor]: https://github.com/stdlib-js/stdlib/tree/esm
+[@stdlib/slice/ctor]: https://github.com/stdlib-js/slice-ctor
 
-[@stdlib/array/dtype]: https://github.com/stdlib-js/stdlib/tree/esm
+[@stdlib/array/dtype]: https://github.com/stdlib-js/array-dtype
 
 </section>
 
