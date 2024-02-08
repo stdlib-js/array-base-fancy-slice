@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@v0.2.0-esm/index.mjs';
 ```
 
 #### slice( x, s, strict )
@@ -110,7 +110,7 @@ The function supports the following parameters:
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zero-to@esm/index.mjs';
 import Slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@esm/index.mjs';
-import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@esm/index.mjs';
+import slice from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-fancy-slice@v0.2.0-esm/index.mjs';
 
 var x = zeroTo( 10, 'generic' );
 // returns [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
