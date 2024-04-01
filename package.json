@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-zeros": "^0.2.1",
     "@stdlib/array-dtype": "^0.2.1",
-    "@stdlib/blas-base-gcopy": "^0.2.0",
+    "@stdlib/blas-base-gcopy": "^0.2.1",
     "@stdlib/slice-base-length": "^0.2.1",
     "@stdlib/slice-base-normalize-slice": "^0.2.1",
     "@stdlib/string-format": "^0.2.1",
@@ -47,10 +47,10 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-base-accessor": "^0.2.0",
+    "@stdlib/array-base-accessor": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-int32": "^0.2.1",
-    "@stdlib/array-zero-to": "^0.2.0",
+    "@stdlib/array-zero-to": "^0.2.1",
     "@stdlib/assert-is-array": "^0.2.1",
     "@stdlib/assert-is-collection": "^0.2.1",
     "@stdlib/assert-is-float64array": "^0.2.1",
