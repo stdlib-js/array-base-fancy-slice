@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-normalize-slice@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/slice-base-length@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zeros@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-dtype@esm/index.mjs";import{ndarray as i}from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gcopy@esm/index.mjs";import n from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";function d(d,m,o){var l,j,p,a,c;if(j=d.length,(p=s(m,j,!0)).code){if(o)throw new RangeError(n("1rJFS",j));p=s(m,j,!1)}return c=e(p),l="generic"===(a=r(d))||null===a?t(c):new d.constructor(c),i(c,d,p.step,p.start,l,1,0),l}export{d as default};
-//# sourceMappingURL=index.mjs.map
